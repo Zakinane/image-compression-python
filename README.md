@@ -16,11 +16,11 @@ A Python script to compress and optimize images using **Pillow (PIL)**.
 4. Compressed images will be saved in the "compressed" folder
 
 ## Parameters
-*input_dir:* Input folder (default: ./original/).
+**input_dir:** Input folder (default: ./original/).
 
-*output_dir:* Output folder (default: ./new/).
+**output_dir:** Output folder (default: ./new/).
 
-*degree_compress:* Compression quality (default: 20).
+**degree_compress:** Compression quality (default: 20).
 
 ## Example
 Input: original/image-01.jpg
