@@ -12,7 +12,7 @@ A Python script to compress and optimize images using **Pillow (PIL)**.
   
 3. Run the script
    ```bash
-   python script.pyl
+   python compress.py
 4. Compressed images will be saved in the "compressed" folder
 
 ## Parameters
