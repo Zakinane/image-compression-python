@@ -16,8 +16,7 @@ def compress_image(image_path, output_path, quality):
 for file in os.listdir(input_dir):
     if file.endswith((".jpg", ".jpeg", ".png")):
         input_path = os.path.join(input_dir, file)
-        output_filename = file  # you could modify the output name
-
+        output_filename = file
         output_path = os.path.join(output_dir, output_filename)
 
         compress_image(input_path, output_path, degree_compress)
